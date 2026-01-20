@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --bg-panel: #051111;
+  --bg-secondary: #041212;
+  --bg-main: #0A2422;
+  --bg-input: #052B1B;
+  --stroke-input: #EDF1F3;
+
+  --accent-primary: #058E3F;
+  --accent-terminal: #1FC210;
+
+  --text-primary: #E6F4F1;
+  --text-muted: #8FA3A0;
+  --text-disabled: #5F7774;
+
+  --border-default: rgba(18, 56, 54, 0.3);
+  --divider: rgba(11, 44, 42, 0.25);
+
+  --success: #1FC210;
+  --warning: #F4C430;
+  --error: #FE0101;
+
+  --font-roboto: "Roboto", sans-serif;
+  --font-inter: "Inter", sans-serif;
+  --font-jakarta: "Plus Jakarta Sans", sans-serif;
+}
