@@ -1,42 +1,42 @@
-# CICS Capture The Flag – Competition Management System
+# CICS Finance Receipt Tracker
 
-A full-stack Capture The Flag (CTF) competition management system built using the MERN stack. This platform is designed to host cybersecurity competitions with real-time scoring, challenge management, and an administrative dashboard for monitoring participants and leaderboards.
+**CICS Finance Receipt Tracker** is a **full-stack web application** developed to help the CICS finance office efficiently track, manage, and store official receipts. The system replaces manual and spreadsheet-based workflows with a secure, centralized, and automated receipt management solution.
 
 ---
 
 ## Overview
 
-The CICS Capture The Flag system allows participants to register, authenticate, and solve cybersecurity challenges while receiving real-time score updates. Administrators have full control over challenge creation, flag validation, user management, and leaderboard monitoring through a centralized dashboard.
+The CICS Finance Receipt Tracker centralizes receipt records in a secure database, allowing finance personnel to easily create, update, and retrieve official receipts. The platform supports generating **print-ready receipts** and exporting them as **PDF files**, either individually or in bulk.
 
-The system leverages real-time communication to ensure an engaging and competitive experience throughout the event.
+User authentication and authorization ensure that only authorized staff can access sensitive financial data. Designed for organizational use, the system improves efficiency, accuracy, and record-keeping in finance operations.
 
 ---
 
 ## Features
 
-### Participant Features
-- User registration and secure authentication
-- Access to CTF challenges
-- Flag submission and validation
-- Real-time scoreboard and rankings
+### Core Features
+- Secure user authentication and authorization
+- Receipt creation, tracking, and management
+- Centralized database for receipt records
+- Printable receipt layouts
 
-### Admin Features
-- Admin dashboard for competition management
-- Challenge creation and management
-- Leaderboard control and monitoring
-- User and submission management
+### PDF & Export Features
+- Single receipt PDF generation
+- Bulk receipt PDF export
+- Print-ready receipt formatting
 
-### Real-Time Functionality
-- Live leaderboard updates using Socket.IO
-- Instant score synchronization across all clients
+### System Features
+- User-friendly interface for finance staff
+- Organized receipt records for easy retrieval
+- Reduced manual data entry and errors
 
 ---
 
 ## Tech Stack
 
-- Frontend: React.js  
-- Backend: Node.js, Express.js  
-- Database: MongoDB  
-- Real-Time Communication: Socket.IO  
-- Authentication: JWT-based authentication  
+- **Frontend:** React.js, Tailwind CSS  
+- **Backend:** Node.js, Express.js  
+- **Database:** MongoDB  
+- **Authentication:** JWT-based authentication  
+- **PDF Generation:** Server-side PDF generation  
 
