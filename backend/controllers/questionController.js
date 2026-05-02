@@ -4,8 +4,8 @@ import path from "path";
 
 export const getQuestions = async (req, res) => {
   try {
-    const questions = await Question.find({});
-    res.json({questions});
+    const questions = await Question.find().select('-flag');
+    res.json({ questions });
   } catch (err) {
     res.status(500).json({ error: err.message });
   }
@@ -39,7 +39,7 @@ export const createQuestion = async (req, res) => {
       category: category || "General",
     });
 
-      req.io.to("players").emit("newQuestion", question);
+    req.io.to("players").emit("newQuestion", question);
 
     res.status(201).json({ message: "Question created successfully", question });
   } catch (err) {
